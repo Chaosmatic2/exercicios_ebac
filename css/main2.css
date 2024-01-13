@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: grey;
+    padding: 20px 0;
+    color: blue;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+header li a:hover {
+    text-decoration: overline;
+}
+
+header .container{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+}
+section .articles {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 100px;*/
+    width: 100%;
+}
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 20px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px ;
+}
+
+.articles article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.articles article a{
+    background-color: red;
+    color: black;
+    padding: 7px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sports {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#sports .articles article a{
+    background-color: rgba(255,0,0,0.4);
+}
+
+#economy {
+    background-color: rgba(170,250,30,0.2);
+}
+
+#economy .articles article a {
+    background-color: rgba(170,250,30,0.5);
+}
+
+#Games {
+    background-color: rgba(170,30,250,0.2);
+}
+
+#Games .articles article a {
+    background-color: rgba(170,30,250,0.4)
+}
+
+#politics {
+    background-color:rgba(5, 5, 14, 0.3);
+}
+
+#politics .articles article a {
+    background-color: rgba(5, 5, 14, 0.6);
+}
